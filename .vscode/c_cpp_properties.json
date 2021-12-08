@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/src/**",
+                "${workspaceFolder}/lean/curl7.78.0/include/**",
+                "${workspaceFolder}/lean/openssl-1.1.1j/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/src/**",
+                    "${workspaceFolder}/lean/curl7.78.0/include/**",
+                    "${workspaceFolder}/lean/openssl-1.1.1j/include/**"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}

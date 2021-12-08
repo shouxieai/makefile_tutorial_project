@@ -1,0 +1,9 @@
+prefix=/data/sxai/makefile/make7/lean/openssl-1.1.1j
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 1.1.1j
+Requires: libssl libcrypto
